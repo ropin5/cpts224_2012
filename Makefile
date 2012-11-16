@@ -1,3 +1,11 @@
+<<<<<<< HEAD
+ma: ma.o cma.o
+
+wbslage_test: wbslage_test.o
+	gcc wbslage_test.o -o wbslage_test
+wbslage_test.o: wbslage_test.c
+	gcc -c wbslage_test.c
+=======
 
 CC=gcc
 TARGETS=ma libcma.so lansdon_test clean_lite
@@ -21,4 +29,5 @@ clean:
 	-rm libcma.so
 clean_lite:
 	-rm *.o
+>>>>>>> a08c0fc88c3ddc30e074608521c9ab88854a178a
 
