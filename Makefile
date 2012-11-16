@@ -1,6 +1,7 @@
 
 CC=gcc
 TARGETS=libcma.so lansdon_test clean_lite
+OPTIONS=-g
 
 all: $(TARGETS)
 
