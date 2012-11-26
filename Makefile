@@ -1,7 +1,6 @@
-
 CC=gcc
 TARGETS=ma libcma.so usakgb_test.o usakgb_test
-OPTIONS=-g -fPIC
+OPTIONS=-fPIC
 
 all: $(TARGETS)
 
